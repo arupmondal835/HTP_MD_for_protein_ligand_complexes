@@ -1,0 +1,6 @@
+parm protein.top
+trajin protein.nc
+rms first :1-167@CA
+atomicfluct :1-167@CA out rmsf.out 
+go
+quit

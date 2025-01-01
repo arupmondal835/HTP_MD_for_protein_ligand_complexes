@@ -1,0 +1,8 @@
+parm protein.top
+trajin protein.nc
+parm ../docked_leap.pdb
+reference ../docked_leap.pdb parm ../docked_leap.pdb
+rms reference :1-167@CA,C,N :1-167@CA,C,N out protein_rmsd.out
+rms reference :168 :168 out lig_rmsd.out nofit
+go
+quit
