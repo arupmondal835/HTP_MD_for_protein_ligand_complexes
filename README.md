@@ -1,4 +1,3 @@
-## HTP_MD_for_protein_ligand_complexes
 
 This repo has all the files needed for HTP MD for protein ligand complexes. As for example, we have top 10 ligand poses in ```base2042-iso0``` directory and the ```receptor.pdb``` is the receptor. Use ```grep "^ATOM" *.pdb >initial.pdb ; cd ..; done``` command to cleanup the receptor and then use the proper histidine state (if hidrogens are present in the receptor) using ```his_state.py```. 
 
