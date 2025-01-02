@@ -10,6 +10,7 @@ do
 			cd $k
 		        cpptraj -i ../../../Postprocessing/cpptraj_strip_traj.in
 			cpptraj -i ../../../Postprocessing/cpptraj_rmsd.in
+                        cpptraj -i ../../../Postprocessing/cpptraj_rmsf.in
 			cd ..
 		done
 		cd ..
